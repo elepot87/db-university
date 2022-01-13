@@ -29,3 +29,9 @@ FROM `exams`
 WHERE `hour` > '14:00:00'
 AND `date` = '2020-06-20'
 ORDER BY `hour` ASC;
+
+-- 6. Selezionare tutti i corsi di laurea magistrale (38)
+SELECT *
+FROM `degrees`
+WHERE `level` = 'magistrale';
+
