@@ -44,3 +44,7 @@ FROM `departments`;
 SELECT *
 FROM `teachers`
 WHERE `phone` IS NULL;
+
+SELECT COUNT(`id`) as `phone_number`
+FROM `teachers`
+WHERE `phone` IS NULL;
